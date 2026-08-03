@@ -1,0 +1,19 @@
+{
+  "name": "nigeria-geojson-api",
+  "version": "1.0.0",
+  "description": "REST API server for Nigeria States, LGAs and Wards GeoJSON data",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "dev": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "json-server": "^1.0.0-beta.15"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
